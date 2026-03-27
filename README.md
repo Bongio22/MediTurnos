@@ -16,5 +16,5 @@ El proyecto sigue una **Arquitectura en Capas**, separando las responsabilidades
 ## 🚀 Instalación
 1. Clonar el repositorio.
 2. Crear entorno virtual: `python -m venv venv`.
-3. Activar entorno e instalar dependencias: `pip install -r requirements.txt`.
+3. Activar entorno e instalar dependencias: `.\venv\Scripts\activate`, `pip install django psycopg2-binary`, .
 4. Ejecutar migraciones: `python manage.py migrate`.
